@@ -1,0 +1,18 @@
+package week05BEassignment;
+
+public class App {
+
+	public static void main(String[] args) {
+		Logger astLogger = new AsteriskLogger();
+		astLogger.log("Mom win");
+		astLogger.error("Mom fail");
+		astLogger.error("It works with many words");
+		
+		
+		Logger spcLogger = new SpacedLogger();
+		spcLogger.log("TACOCAT");
+		spcLogger.error("Stop! This is an error!");
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package week05BEassignment;
+
+public class Application {
+
+	public static void main(String[] args) {
+		Logger astLogger = new AsteriskLogger();
+		astLogger.log("Mom win");
+		astLogger.error("Mom fail");
+
+	}
+
+}

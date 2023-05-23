@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\acino\Promineo\Promineo_Tech_BE\Week-05-Object_Oriented_Programming\week05BE-assignments\.metadata\.plugins\org.eclipse.jdt.core
+232534670.index
+1865797976.index
+3413725848.index

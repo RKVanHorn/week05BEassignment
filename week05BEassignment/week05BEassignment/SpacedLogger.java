@@ -1,0 +1,19 @@
+package week05BEassignment;
+
+public class SpacedLogger implements Logger {
+
+	@Override
+	public void log(String log) {
+		String spacedLog = String.join(" ", log.split(""));
+		System.out.println(spacedLog);
+		
+	}
+
+	@Override
+	public void error(String error) {
+		String spacedError = String.join(" ", error.split(""));
+		System.err.println("ERROR: " + spacedError);
+	}
+
+	
+}
