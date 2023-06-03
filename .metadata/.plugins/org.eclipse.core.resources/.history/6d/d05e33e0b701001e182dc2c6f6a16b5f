@@ -4,13 +4,15 @@ public class SpacedLogger implements Logger {
 
 	@Override
 	public void log(String log) {
+		//String spacedLog = String.join(" ", log.split(""));
 		System.out.println(String.join(" ", log.split("")));
 		
 	}
 
 	@Override
 	public void error(String error) {
-		System.err.println("ERROR: " + String.join(" ", error.split("")));
+		String spacedError = String.join(" ", error.split(""));
+		System.err.println("ERROR: " + spacedError);
 	}
 
 	
